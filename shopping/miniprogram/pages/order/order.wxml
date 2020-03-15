@@ -1,0 +1,5 @@
+<tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+    <block wx:if="{{tabs[0].isActive}}">0000</block>
+    <block wx:elif="{{tabs[1].isActive}}">1111</block>
+    <block wx:else="{{tabs[2].isActive}}">2222</block>
+</tabs>

@@ -1,0 +1,35 @@
+<view class="yg_home">
+    <!-- 搜索框 -->
+    <searchInput></searchInput>
+    <!-- 轮播图 -->
+    <view class="home_swiper">
+        <swiper autoplay indicator-dots circular>
+            <swiper-item wx:for="{{swiperList}}" wx:key="index">
+                <navigator url="/pages/goods_detail/goods_detail?goods_id={{item.goods_id}}">
+                    <image src="{{item.image_src}}"></image>
+                </navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+    <!-- 导航部分 -->
+    <view class="home_cate">
+        <navigator wx:for="{{cateList}}" wx:key="index" url="/pages/category/category" open-type="switchTab">
+            <image mode="widthFix" src="{{item.image_src}}"></image>
+        </navigator>
+    </view>
+    <!-- 楼层部分 -->
+    <view class="home_floor">
+        <view class="floor_group" wx:for="{{floorList}}" wx:key="index">
+            <!-- 标题 -->
+            <view class="floor_title">
+                <image mode="widthFix" src="{{item.floor_title.image_src}}"></image>
+            </view>
+            <!-- 内容 -->
+            <view class="floor_list">
+                <navigator wx:for="{{item.product_list}}" wx:key="index">
+                    <image mode="{{index == 0 ? 'widthFix' : 'scaleToFill'}}" src="{{item.image_src}}"></image>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
