@@ -33,7 +33,7 @@ Page({
     });
   },
 
-  cwd() {
-    console.log('disancetijiao')
+  nnnd() {
+    console.log('ninainaide')
   }
 })
