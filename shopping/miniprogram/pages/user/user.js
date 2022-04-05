@@ -35,6 +35,9 @@ Page({
 
   handle22() {
     console.log('乱改2222')
+  },
+  handle111() {
+    console.log('乱改111')
   }
 
 
