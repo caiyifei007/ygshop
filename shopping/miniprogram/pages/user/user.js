@@ -15,7 +15,9 @@ Page({
   },
 
   test() {},
-  test2() {},
+  test2() {
+    console.log('这个test1提交的数据')
+  },
 
 
   onShow() {
