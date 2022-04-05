@@ -33,7 +33,7 @@ Page({
     });
   },
 
-  nnnd() {
-    console.log('ninainaide')
+  handle() {
+    console.log('乱改')
   }
 })
