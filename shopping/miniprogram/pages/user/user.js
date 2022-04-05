@@ -20,7 +20,7 @@ Page({
     console.log('这是一些操作')
   },
   test2() {
-    console.log('这个test1提交的数据')
+    console.log('这里做修改，看看还怎么提交')
   },
 
 
