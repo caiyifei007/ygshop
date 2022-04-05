@@ -14,7 +14,11 @@ Page({
     
   },
 
-  test() {},
+  demo() {},
+
+  demo2() {
+    console.log('这是一些操作')
+  },
   test2() {
     console.log('这个test1提交的数据')
   },
