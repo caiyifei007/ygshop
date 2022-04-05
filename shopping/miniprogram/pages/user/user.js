@@ -31,5 +31,9 @@ Page({
       userInfo,
       collectNums
     });
+  },
+
+  cwd() {
+    console.log('disancetijiao')
   }
 })
