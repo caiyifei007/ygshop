@@ -33,7 +33,9 @@ Page({
     });
   },
 
-  handle() {
-    console.log('乱改')
+  handle22() {
+    console.log('乱改2222')
   }
+
+
 })
