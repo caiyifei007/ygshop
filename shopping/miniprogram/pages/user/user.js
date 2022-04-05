@@ -10,6 +10,12 @@ Page({
     collectNums: 0
   },
 
+  demo() {},
+
+  demo2() {
+    console.log('这是一些操作')
+  },
+
   onShow() {
     const userInfo = wx.getStorageSync("userInfo");
     let collectNums = wx.getStorageSync('collect').length;
