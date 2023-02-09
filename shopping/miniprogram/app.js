@@ -16,5 +16,7 @@ App({
     }
 
     this.globalData = {}
+
+    // test1注释
   }
 })
