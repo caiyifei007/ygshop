@@ -16,6 +16,7 @@ App({
     }
 
     this.globalData = {}
+    // test2 - 注释
 
     // test1注释
     // test1 - 2注释
