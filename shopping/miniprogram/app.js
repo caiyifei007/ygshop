@@ -18,5 +18,6 @@ App({
     this.globalData = {}
 
     // test1注释
+    // test1 - 2注释
   }
 })
